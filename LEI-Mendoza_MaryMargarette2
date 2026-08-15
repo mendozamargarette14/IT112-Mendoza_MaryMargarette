@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    printf("++----^^---------^^--------------^^---------^^----++\n");
+    printf("||                                                ||\n");
+    printf("^^            W E L C O M E, C O D E R !          ^^\n");
+    printf("^^                                                ^^\n");
+    printf("||          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>        ||\n");
+    printf("||          |                            |        ||\n");
+    printf("||          |     [ USER ] : STUDENT     |        ||\n");
+    printf("||          |     [ GOAL ] : LEARN       |        ||\n");
+    printf("||          |     [ FOCUS] : C LANGUAGE  |        ||\n");
+    printf("||          |                            |        ||\n");
+    printf("||          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<        ||\n");
+    printf("^^                                                ^^\n");
+    printf("^^        Begin Your Programming Journey Here     ^^\n");
+    printf("||                                                ||\n");
+    printf("++----^^---------^^--------------^^---------^^----++\n");
+    return 0;
+}
