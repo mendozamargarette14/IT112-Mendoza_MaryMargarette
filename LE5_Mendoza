@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main () {
+    int number;
+    int sum = 0;
+
+    printf("Enter postive numbers to ADD (zero or negative number to STOP)\n\n");
+
+    do {
+        printf("Enter a number: ");
+        scanf("%d", &number);
+
+        if (number > 0) {
+            sum += number;
+        }
+    }   while (number > 0);
+    
+    printf("Total sum is: %d\n", sum);
+
+    return 0;
+}
