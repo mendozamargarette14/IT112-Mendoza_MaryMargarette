@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() {
+    float savings;
+    float total = 0.0;
+    float average;
+    float needed;
+    const float GOAL = 500.00;
+
+    printf("==================================\n");
+    printf("      DAILY SAVINGS TRACKER\n");
+    printf("==================================\n");
+
+    for (int day = 1; day <= 7; day++) {
+        printf("Enter savings for Day %d: ", day);
+        scanf("%f", &savings);
+        total += savings;
+    }
+    average = total / 7;
+
+    printf("\n==================================\n");
+    printf("      SAVINGS SUMMARY\n");
+    printf("==================================\n");
+
+    printf("Total Savings: PHP %.2f\n", total);
+    printf("Daily Average: %.2f\n", average);
+
+    if (total >= GOAL) {
+        printf("Status: GOAL REACHED\n");
+    }
+    else {
+        needed = GOAL - total;
+        printf("Status: GOAL NOT REACHED\n");
+        printf("You need PHP %.2f more to reach your goal.\n", needed);
+    }
+    printf("===================================");
+    return 0;
+}
